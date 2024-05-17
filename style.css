@@ -1,5 +1,57 @@
-.Header{
+
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.img{
+    position: relative;
+    left: 20px;
+}
+
+
+#ex{
+    height: 80px;
+    width: 200px;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.banner{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 30px 50px;
+}
+.buttons{
+    width: 90%;
+    height: 100px;
+    margin: 0px 50px 20px;
+    background-color: #e7fdbf;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider{
+    width: 90%;
+    height: 30%;
+    margin: 0px 50px 20px;
+    
+    border-radius: 20px;
+    border: none;
+   
 }
